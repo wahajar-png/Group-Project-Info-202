@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - OurGroupStocks</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="Home Page.html">OurGroupStocks</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="Home Page.html">Home</a>
+      <a class="nav-link" href="Search Page.html">Search</a>
+      <a class="nav-link" href="Contact Page.html">Contact</a>
+      <a class="nav-link" href="Group Member Page.html">Group Members</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+  <div class="banner">
+    <h1>OurGroupStocks</h1>
+    <p>
+      OurGroupStocks is a live market lookup tool built for our web development project.
+      It pulls real-time stock quotes so you can check current prices, daily highs and lows,
+      and price changes for any public ticker. Head over to the Search page to look up a
+      specific stock, or check the featured market snapshot below.
+    </p>
+  </div>
+
+  <h2 class="text-center mb-3">Featured Markets</h2>
+  <div class="tradingview-widget-container mb-4">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+      {
+        "colorTheme": "dark",
+        "dateRange": "12M",
+        "showChart": true,
+        "locale": "en",
+        "largeChartUrl": "",
+        "isTransparent": true,
+        "showSymbolLogo": true,
+        "showFloatingTooltip": false,
+        "width": "100%",
+        "height": "500",
+        "scaleFontColor": "rgba(255, 255, 255, 1)",
+        "tabs": [
+          {
+            "title": "Featured Stocks",
+            "symbols": [
+              { "s": "NASDAQ:AAPL", "d": "Apple Inc." },
+              { "s": "NASDAQ:TSLA", "d": "Tesla, Inc." },
+              { "s": "NASDAQ:MSFT", "d": "Microsoft Corp." },
+              { "s": "NASDAQ:NVDA", "d": "NVIDIA Corporation" },
+              { "s": "NASDAQ:AMZN", "d": "Amazon.com, Inc." },
+              { "s": "NASDAQ:GOOGL", "d": "Alphabet Inc. (Google)" },
+              { "s": "NASDAQ:META", "d": "Meta Platforms, Inc." },
+              { "s": "NASDAQ:AVGO", "d": "Broadcom Inc." },
+              { "s": "NASDAQ:AMD", "d": "Advanced Micro Devices" },
+              { "s": "NASDAQ:NFLX", "d": "Netflix, Inc." }
+            ],
+            "originalTitle": "Featured Stocks"
+          }
+        ]
+      }
+    </script>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2026 OurGroupStocks Group Project
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
