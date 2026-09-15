@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search - OurGroupStocks</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="Home Page.html">OurGroupStocks</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="Home Page.html">Home</a>
+      <a class="nav-link" href="Search Page.html">Search</a>
+      <a class="nav-link" href="Contact Page.html">Contact</a>
+      <a class="nav-link" href="Group Member Page.html">Group Members</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h1 class="text-center mb-4">Search a Stock</h1>
+
+  <form id="stockForm" class="d-flex justify-content-center mb-4">
+    <input
+      type="text"
+      id="tickerInput"
+      class="form-control me-2"
+      style="max-width: 250px;"
+      placeholder="e.g. AAPL, TSLA"
+      required
+    >
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <div id="results" class="d-flex justify-content-center"></div>
+</div>
+
+<footer>
+  &copy; 2026 OurGroupStocks Group Project
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="search.js"></script>
+</body>
+</html>
