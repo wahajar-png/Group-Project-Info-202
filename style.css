@@ -1,0 +1,102 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #3399ff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  a {
+    color: #66b3ff;
+  }
+  
+  a:hover {
+    color: #99ccff;
+  }
+  
+  .navbar {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #3399ff;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #3399ff !important;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .nav-link:hover {
+    color: #66b3ff !important;
+  }
+  
+  .banner {
+    background-color: #0a0a0a;
+    border: 1px solid #3399ff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #0a0a0a;
+    border: 1px solid #3399ff;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+  }
+  
+  .card-title {
+    color: #3399ff;
+  }
+  
+  .form-control {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #3399ff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+  }
+  
+  .form-control:focus {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #66b3ff;
+    box-shadow: 0 0 0 0.2rem rgba(51, 153, 255, 0.4);
+  }
+  
+  .form-control::placeholder {
+    color: #aaaaaa;
+  }
+  
+  .btn-primary {
+    background-color: #bbd2e8;
+    border-color: rgb(175, 193, 211);
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1a75d1;
+    border-color: #1a75d1;
+  }
+  
+  .text-success {
+    color: #4caf50 !important;
+  }
+  
+  .text-danger {
+    color: #ff5252 !important;
+  }
+  
+  footer {
+    border-top: 1px solid #3399ff;
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+  }
